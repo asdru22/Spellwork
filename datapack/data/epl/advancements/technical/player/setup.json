@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "setup": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "epl:player/setup"
+    }
+  }  

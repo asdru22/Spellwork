@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{epl:{StoredEnchantments:[{id:\"epl:void_strike\",lvl:1s,AppliableTo:[\"#epl:swords\"],display:'{\"translate\":\"enchantment.epl.icon\",\"with\":[{\"font\":\"epl:enchants\",\"translate\":\"enchantment.epl.void_strike.icon\"},{\"font\":\"epl:enchants\",\"text\":\"1\"}]}'},{id:\"epl:vampirism\",lvl:3s,AppliableTo:[\"#epl:swords\"],display:'{\"translate\":\"enchantment.epl.icon\",\"with\":[{\"font\":\"epl:enchants\",\"translate\":\"enchantment.epl.vampirism.icon\"},{\"font\":\"epl:enchants\",\"text\":\"3\"}]}'}]},BlockEntityTag:{Command:\"epl:item\"},HideFlags:2,display:{Name:'{\"italic\":false,\"translate\":\"item.epl.mystic_book\",\"color\":\"dark_aqua\"}',Lore:['[{\"color\":\"white\",\"italic\":false,\"font\":\"epl:main\",\"text\":\"\"},{\"translate\":\"enchantment.epl.icon\",\"with\":[{\"font\":\"epl:enchants\",\"translate\":\"enchantment.epl.vampirism.icon\"},{\"font\":\"epl:enchants\",\"text\":\"3\"}]},{\"font\":\"epl:main\",\"translate\":\"enchantment.epl.icon\",\"with\":[{\"font\":\"epl:enchants\",\"translate\":\"enchantment.epl.void_strike.icon\"},{\"font\":\"epl:enchants\",\"text\":\"1\"}]}]','{\"text\":\"\"}','{\"translate\": \"pack.epl\",\"color\": \"#9728FF\"}']},smithed:{id:\"epl:mystic_book\"},CustomModelData:6901010}"
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

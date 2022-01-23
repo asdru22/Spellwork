@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{PickupDelay:10s,Item:{id:\"minecraft:furnace\",Count:1b}}"
+    }
+  }
+  

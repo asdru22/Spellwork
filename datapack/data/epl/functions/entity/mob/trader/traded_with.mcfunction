@@ -1,0 +1,1 @@
+execute if entity @s[tag=smithed.block] run function epl:entity/mob/trader/block

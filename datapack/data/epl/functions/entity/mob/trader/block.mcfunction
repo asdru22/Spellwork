@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.block.spellbinding_station] run function epl:block/spellbinding_station/interact/init

@@ -1,0 +1,66 @@
+{
+    "item.lightning_arcanum.use": {
+      "sounds": [{
+        "name": "anemokinesis:item/lightning_arcanum/use",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.lightning_arcanum.use",
+      "category": "master"
+    },
+    "item.solar_brew.drink": {
+      "sounds": [{
+        "name": "anemokinesis:item/solar_brew/drink",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.solar_brew.drink",
+      "category": "master"
+    },
+    "block.daylight_capacitor.load": {
+      "sounds": [{
+        "name": "anemokinesis:block/daylight_capacitor/load",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.block.daylight_capacitor.load",
+      "category": "master"
+    },
+    "item.heliolide_armor.activate": {
+      "sounds": [{
+        "name": "anemokinesis:item/heliolide_armor/activate",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.heliolide_armor.activate",
+      "category": "master"
+    },
+    "item.thunderite_sword.charge": {
+      "sounds": [{
+        "name": "anemokinesis:item/thunderite_sword/charge",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.thunderite_sword.charge",
+      "category": "master"
+    },
+    "item.thunderite_sword.shoot": {
+      "sounds": [{
+        "name": "anemokinesis:item/thunderite_sword/shoot",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.thunderite_sword.shoot",
+      "category": "master"
+    },
+    "item.remorse.charge": {
+      "sounds": [{
+        "name": "anemokinesis:item/remorse/charge",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.remorse.charge",
+      "category": "master"
+    },
+    "item.remorse.shoot": {
+      "sounds": [{
+        "name": "anemokinesis:item/remorse/shoot",
+        "stream": true
+      }],
+      "subtitle": "subtitles.ane.item.remorse.shoot",
+      "category": "master"
+    }
+}

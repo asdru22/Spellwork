@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.epl.echoing_bar\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#9728FF\"}']},smithed:{id:\"epl:echoing_bar\"},CustomModelData:6901000}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

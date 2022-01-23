@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.experience_shard\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#9728FF\"}']},smithed:{id:\"epl:experience_shard\"},CustomModelData:6901009}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

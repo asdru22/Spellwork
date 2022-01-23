@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/arrow"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 6901000},"model": "epl:item/shadowblight_arrow"}
+  ]
+}

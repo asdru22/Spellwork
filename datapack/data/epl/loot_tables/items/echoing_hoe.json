@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.epl.echoing_hoe\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#9728FF\"}']},smithed:{id:\"epl:echoing_hoe\"},CustomModelData:6901000}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

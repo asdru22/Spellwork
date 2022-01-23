@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "smithed:crafter"
+                },
+                "ops": [
+                  {
+                    "source": "root.temp.crafting_input.1[1].tag",
+                    "target": "{}",
+                    "op": "merge"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.epl.shadowblight_shield\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#9728FF\"}']},smithed:{id:\"epl:shadowblight_shield\"},CustomModelData:6901000}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

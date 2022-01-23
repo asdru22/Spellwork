@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "place": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "item": {
+            "nbt": "{BlockEntityTag:{Command:\"epl:item\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "epl:block/placement/remove_chain_command_block"
+    }
+  }
+  

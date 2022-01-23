@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:block/template_command_block",
+    "textures": {
+      "front": "minecraft:block/chain_command_block_front",
+      "back": "minecraft:block/chain_command_block_back",
+      "side": "minecraft:block/chain_command_block_side"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 6901000},"model": "epl:item/echoing_bar"},
+      {"predicate": {"custom_model_data": 6901001},"model": "epl:block/void_campfire_fire"},
+      {"predicate": {"custom_model_data": 6901002},"model": "epl:item/echoing_residue"},
+      {"predicate": {"custom_model_data": 6901003},"model": "epl:item/fractal_junction"},
+      {"predicate": {"custom_model_data": 6901004},"model": "epl:block/fractal_junction"},
+      {"predicate": {"custom_model_data": 6901005},"model": "epl:block/fractal_junction_connected"},
+      {"predicate": {"custom_model_data": 6901006},"model": "epl:item/shadowblight_bucket"},
+      {"predicate": {"custom_model_data": 6901007},"model": "epl:block/spellbinding_station"},
+      {"predicate": {"custom_model_data": 6901008},"model": "epl:item/fractaleaf_petal"},
+      {"predicate": {"custom_model_data": 6901009},"model": "epl:item/experience_shard"},
+      {"predicate": {"custom_model_data": 6901010},"model": "epl:item/mystic_book"},
+      {"predicate": {"custom_model_data": 6901011},"model": "epl:item/copper_bolt"},
+      {"predicate": {"custom_model_data": 6901012},"model": "epl:item/rotated_book"}
+  ]
+  }

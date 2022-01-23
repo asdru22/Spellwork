@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Item:{id:\"minecraft:shulker_box\",Count:1b,tag:{epl:{gui:1b}}}}"
+    }
+  }
+  

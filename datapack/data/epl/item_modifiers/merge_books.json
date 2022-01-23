@@ -1,0 +1,30 @@
+[
+ {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "",
+          "color": "white",
+          "font": "epl:main",
+          "italic": false
+        },
+        {
+          "nbt": "root.temp.merge.new[].display",
+          "storage": "epl:storage",
+          "interpret": true,
+          "separator": ""
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "translate": "pack.epl",
+        "color": "#9728FF"
+      }
+    ],
+    "replace": false
+  }
+]

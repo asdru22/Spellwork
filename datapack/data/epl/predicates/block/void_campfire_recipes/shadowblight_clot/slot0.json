@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{Items:[{Slot:0b,tag:{smithed:{id:\"epl:shadowblight_clot\"}}}]}"
+      }
+    }
+  }
+  

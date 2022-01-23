@@ -1,0 +1,7 @@
+{
+	"description": "villagers",
+	"values": [
+		"minecraft:villager",
+		"minecraft:wandering_trader"
+	]
+}

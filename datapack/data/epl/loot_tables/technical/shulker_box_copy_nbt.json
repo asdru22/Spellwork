@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shulker_box",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "block.epl.spellbinding_station.void_tolerance_left",
+                  "with": [
+                    {
+                      "selector": "@p[advancements={epl:technical/block/interact_with_spellbinding_station=true}]"
+                    },
+                    {
+                      "score": {
+                        "name": "void_tolerance",
+                        "objective": "epl.dummy"
+                      },
+                      "color": "dark_purple"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "epl:storage"
+                },
+                "ops": [
+                  {
+                    "source": "root.temp.item.tag",
+                    "target": "{}",
+                    "op": "merge"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

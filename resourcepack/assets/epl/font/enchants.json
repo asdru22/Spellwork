@@ -1,0 +1,21 @@
+{
+  "providers":[
+    {
+      "type":"bitmap",
+      "file":"epl:gui/romans.png",
+      "ascent": 1,
+      "height": 6,
+      "chars":["123456789"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/enchantments.png",
+      "ascent": 7,
+      "height": 12,
+      "chars":[
+        "\uc000\uc001\uc002\uc003\uc004\uc005\uc006\uc007\uc008\uc009",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    }
+  ]
+}

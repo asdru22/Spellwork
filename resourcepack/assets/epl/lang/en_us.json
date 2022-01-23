@@ -1,0 +1,41 @@
+{
+    "pack.epl": "Call of the Void",
+    "pack.epl.dummyesc": "ballin",
+    "epl.level": "Void Tolerance",
+    "void_tolerance.epl.icon":"\uc015",
+
+    "text.epl.too_high":"Block is not below Y= 0!",
+    "text.epl.no_book":"No book inserted!",
+    "text.epl.no_shards":"Add Experience Shards!",
+
+    "item.epl.experience_shard":"Experience Shard",
+
+    "block.epl.spellbinding_station":"Spellbinding Station",
+    "block.epl.spellbinding_station.name":"%s%s at Y= %s -> %s%s",
+    "block.epl.spellbinding_station.void_tolerance_left":"%s's Void Tolerance: %s",
+
+    "death.epl.void_campfire":"%s's soul was set ablaze by %s",
+
+    "gui.epl.level.bar":"\u0001",
+    "gui.epl.level.end_crystal":"\u0002",
+    "gui.epl.level.ender_eye":"\u0003",
+    "gui.epl.level.shulker_shell":"\u0004",
+    "gui.epl.level.dragon_breath":"\u0005",
+    "gui.epl.level.heart_of_ender":"\u0006",
+    
+    "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
+    "enchantment.epl.icon":"%s\uc014%s ",
+    "enchantment.epl.shard_icon":"\uc013",
+    
+    "enchantment.epl.vampirism.icon":"\uc000",
+    "enchantment.epl.pain_cycle.icon":"\uc001",
+    "enchantment.epl.void_strike.icon":"\uc002",
+    "enchantment.epl.thundering.icon":"\uc003",
+    "enchantment.epl.piercing.icon":"\uc004",
+    "enchantment.epl.ricochet.icon":"\uc005",
+    "enchantment.epl.supercharge.icon":"\uc006",
+    "enchantment.epl.deflect.icon":"\uc007",
+    "enchantment.epl.levitation_shot.icon":"\uc008",
+    "enchantment.epl.multishot.icon":"\uc009"
+    
+}

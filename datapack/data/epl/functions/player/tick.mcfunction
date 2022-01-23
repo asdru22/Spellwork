@@ -1,0 +1,1 @@
+execute if entity @s[scores={epl.use_bucket=1..}] run function epl:item/bucket/use

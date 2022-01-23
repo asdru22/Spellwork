@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{Items:[{Slot:2b,tag:{smithed:{id:\"epl:echoing_matter\"}}}]}"
+      }
+    }
+  }
+  

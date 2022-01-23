@@ -1,0 +1,1 @@
+execute if entity @s[predicate=epl:item/umbral_configuration] run function epl:item/umbral_configuration/main

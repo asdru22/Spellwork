@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "click_table": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "nbt": "{Lock:\"%%%As6as6dasdjgfakmasf\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "epl:block/locked"
+    }
+  }
+  

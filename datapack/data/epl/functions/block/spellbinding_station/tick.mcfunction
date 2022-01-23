@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ furnace run function epl:block/spellbinding_station/destroy

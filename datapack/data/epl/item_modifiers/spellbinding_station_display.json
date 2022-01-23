@@ -1,0 +1,39 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "block.epl.spellbinding_station.name",
+        "with": [
+          {
+            "score": {
+              "name": "t",
+              "objective": "epl.dummy"
+            }
+          },
+          {
+            "translate": "enchantment.epl.shard_icon",
+            "font": "epl:main"
+          },
+          {
+            "score": {
+              "name": "height",
+              "objective": "epl.dummy"
+            },
+            "color":"gold"
+          },
+          {
+            "score": {
+              "name": "cost",
+              "objective": "epl.dummy"
+            }
+          },
+          {
+            "translate": "void_tolerance.epl.icon",
+            "font": "epl:main"
+          }
+        ]
+      }
+    }
+  ]
+  

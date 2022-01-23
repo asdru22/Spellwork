@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.entity.trader_ignore] run function epl:entity/mob/trader/ignore

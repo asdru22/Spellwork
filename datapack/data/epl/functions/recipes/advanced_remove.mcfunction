@@ -1,0 +1,1 @@
+execute if predicate epl:recipes/shadowblight_bucket store success score $temp smithed.data run function epl:recipes/remove/shadowblight_bucket

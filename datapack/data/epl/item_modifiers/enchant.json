@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "selector": "@s",
+      "color": "#FF0000",
+      "italic":false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "",
+          "color": "white",
+          "font": "epl:main",
+          "italic": false
+        },
+        {
+          "nbt": "root.temp.ench.valid[].display",
+          "storage": "epl:storage",
+          "interpret": true,
+          "separator": ""
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "translate": "pack.epl",
+        "color": "#9728FF"
+      }
+    ],
+    "replace": false
+  }
+]

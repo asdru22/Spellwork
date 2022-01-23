@@ -1,0 +1,1 @@
+data merge entity @s {ActiveEffects:[{Id:14b,Amplifier:10b,Duration:2000000,ShowParticles:0b}],Offers:{Recipes:[]}}

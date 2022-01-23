@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:block/furnace",
+    "overrides": [{
+        "predicate": {
+          "custom_model_data": 4250001
+        },
+        "model": "smithed:block/crafter/table"
+      },
+      {"predicate": {
+        "custom_model_data": 6901000
+        },
+        "model": "epl:item/void_campfire"
+      },
+      {"predicate": {
+        "custom_model_data": 6901001
+        },
+        "model": "epl:item/fractal_junction"
+      },
+      {"predicate": {
+        "custom_model_data": 6901002
+        },
+        "model": "epl:block/spellbinding_station"
+      }
+    ]
+  }

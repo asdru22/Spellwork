@@ -1,0 +1,23 @@
+{
+    "values": [
+        "#epl:swords",
+        "#epl:pickaxes",
+        "#epl:axes",
+        "#epl:hoes",
+        "#epl:shovels",
+        "#epl:helmets",
+        "#epl:chestplates",
+        "#epl:leggings",
+        "#epl:boots",
+    
+        "minecraft:fishing_rod",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:flint_and_steel",
+        "minecraft:shears",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:carrot_on_a_stick"
+    ]
+}
