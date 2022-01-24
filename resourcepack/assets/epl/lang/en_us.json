@@ -1,27 +1,19 @@
 {
-    "pack.epl": "Call of the Void",
-    "pack.epl.dummyesc": "ballin",
-    "epl.level": "Void Tolerance",
-    "void_tolerance.epl.icon":"\uc015",
+    "pack.epl": "Enchanting Evolved",
+    "pack.epl.desc": "ballin",
 
     "text.epl.too_high":"Block is not below Y= 0!",
     "text.epl.no_book":"No book inserted!",
-    "text.epl.no_shards":"Add Experience Shards!",
-
-    "item.epl.experience_shard":"Experience Shard",
+    "text.epl.no_shards":"Add Lapis Lazuli!",
+    "text.epl.no_xp":"You only have %s experience points!",
+    "void_tolerance.epl.icon":"\uc015",
+    
+    "item.epl.mystic_book":"Mystic Book",
 
     "block.epl.spellbinding_station":"Spellbinding Station",
-    "block.epl.spellbinding_station.name":"%s%s at Y= %s -> %s%s",
-    "block.epl.spellbinding_station.void_tolerance_left":"%s's Void Tolerance: %s",
+    "block.epl.spellbinding_station.name":"%s%s at Y= %s ➟ %s%s",
 
     "death.epl.void_campfire":"%s's soul was set ablaze by %s",
-
-    "gui.epl.level.bar":"\u0001",
-    "gui.epl.level.end_crystal":"\u0002",
-    "gui.epl.level.ender_eye":"\u0003",
-    "gui.epl.level.shulker_shell":"\u0004",
-    "gui.epl.level.dragon_breath":"\u0005",
-    "gui.epl.level.heart_of_ender":"\u0006",
     
     "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
     "enchantment.epl.icon":"%s\uc014%s ",

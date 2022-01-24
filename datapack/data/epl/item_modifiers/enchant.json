@@ -20,19 +20,18 @@
           "italic": false
         },
         {
+          "text": "\uf000 ",
+          "color": "white",
+          "font": "epl:enchants",
+          "italic": false
+        },
+        {
           "nbt": "root.temp.ench.valid[].display",
           "storage": "epl:storage",
           "interpret": true,
           "separator": ""
         }
-      ],
-      {
-        "text": ""
-      },
-      {
-        "translate": "pack.epl",
-        "color": "#9728FF"
-      }
+      ]
     ],
     "replace": false
   }

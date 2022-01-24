@@ -7,6 +7,6 @@ execute if predicate epl:recipes/enchanting/is_chestplate run data modify storag
 execute if predicate epl:recipes/enchanting/is_helmet run data modify storage smithed:crafter root.temp.item_tag append value "#epl:helmets"
 execute if predicate epl:recipes/enchanting/is_leggings run data modify storage smithed:crafter root.temp.item_tag append value "#epl:leggings"
 execute if predicate epl:recipes/enchanting/is_boots run data modify storage smithed:crafter root.temp.item_tag append value "#epl:boots"
-execute if predicate epl:recipes/enchanting/is_bow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:bow"
-execute if predicate epl:recipes/enchanting/is_crossbow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:crossbow"
+execute if predicate epl:recipes/enchanting/is_bow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:bows"
+execute if predicate epl:recipes/enchanting/is_crossbow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:crossbows"
 execute if predicate epl:recipes/enchanting/is_enchantable run data modify storage smithed:crafter root.temp.item_tag append value "#epl:enchantable"

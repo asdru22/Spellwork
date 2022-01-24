@@ -16,6 +16,15 @@
         "\uc000\uc001\uc002\uc003\uc004\uc005\uc006\uc007\uc008\uc009",
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
       ]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/ench_tooltip.png",
+      "ascent": 7,
+      "height": 12,
+      "chars":[
+        "\uf000"
+      ]
     }
   ]
-}
+} 

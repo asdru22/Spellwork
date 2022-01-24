@@ -43,7 +43,7 @@
     },
     {
       "type":"bitmap",
-      "file":"epl:item/experience_shard.png",
+      "file":"minecraft:item/lapis_lazuli.png",
       "ascent": 9,
       "height": 12,
       "chars":["\uc013"]
@@ -59,10 +59,17 @@
     },
     {
       "type":"bitmap",
-      "file":"epl:gui/void_tolerance_icon.png",
+      "file":"epl:gui/experience_icon.png",
       "ascent": 9,
       "height": 12,
       "chars":["\uc015"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:item/mystic_book.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc016"]
     }
   ]
 }

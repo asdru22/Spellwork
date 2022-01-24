@@ -10,12 +10,16 @@ scoreboard players set const.3 epl.dummy 3
 scoreboard players set const.4 epl.dummy 4
 scoreboard players set const.5 epl.dummy 5
 scoreboard players set const.6 epl.dummy 6
+scoreboard players set const.7 epl.dummy 7
+scoreboard players set const.9 epl.dummy 9
 scoreboard players set const.10 epl.dummy 10
 scoreboard players set const.16 epl.dummy 16
 scoreboard players set const.20 epl.dummy 20
 scoreboard players set const.25 epl.dummy 25
+scoreboard players set const.38 epl.dummy 38
 scoreboard players set const.60 epl.dummy 60
 scoreboard players set const.100 epl.dummy 100
+scoreboard players set const.158 epl.dummy 158
 scoreboard players set const.256 epl.dummy 256
 scoreboard players set const.1000 epl.dummy 1000
 scoreboard players set const.65536 epl.dummy 65536
