@@ -14,4 +14,3 @@ data merge storage smithed:log {message:'["",{"color":"gold","text":"Result"},"\
 function #smithed:core/pub/technical/tools/log
 
 loot replace block ~ ~ ~ container.16 loot epl:items/mystic_book
-
