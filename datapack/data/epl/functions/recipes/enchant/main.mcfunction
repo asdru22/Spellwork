@@ -1,5 +1,3 @@
-say enchant
-
 data remove storage smithed:crafter root.temp.shapeless_crafting_input[{item_tag:["#minecraft:piglin_loved"]}].item_tag[0]
 
 data modify storage epl:storage root.temp.ench.book set from storage smithed:crafter root.temp.shapeless_crafting_input[{tag:{smithed:{id:"epl:mystic_book"}}}]

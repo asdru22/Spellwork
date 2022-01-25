@@ -1,2 +1,2 @@
-title @p actionbar {"translate":"text.epl.no_xp","with":[{"score":{"name": "tot_xp","objective": "epl.dummy"},"color":"red"}]}
 execute at @s run playsound minecraft:block.fire.extinguish player @s ~ ~ ~ 2 2
+particle smoke ~ ~ ~ 0.2 0.2 0.2 0.2 10 force
