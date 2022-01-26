@@ -1,4 +1,3 @@
 playsound minecraft:block.amethyst_cluster.break block @a[distance=..5] ~ ~ ~ 2 1.5
-scoreboard players add t epl.dummy 1
-execute store result entity @s ArmorItems[3].tag.epl.shards int 1 run scoreboard players get t epl.dummy
-item modify entity @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true}] weapon.mainhand epl:remove_1
+execute if entity @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true},predicate=!epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/one
+execute if entity @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true},predicate=epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/all

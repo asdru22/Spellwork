@@ -3,7 +3,7 @@ data modify storage epl:storage root.temp.item set from entity @p[advancements={
 
 execute if entity @s[tag=!epl.block.spellbinding_station.has_book] if data storage epl:storage root.temp.item{id:"minecraft:book"} run function epl:block/spellbinding_station/interact/add_book
 
-execute if data storage epl:storage root.temp.item{id:"minecraft:lapis_lazuli"} unless data entity @s ArmorItems[3].tag.epl{shards:20} run function epl:block/spellbinding_station/interact/add_lapis
+execute if data storage epl:storage root.temp.item{id:"minecraft:lapis_lazuli"} if score t epl.dummy matches ..19 run function epl:block/spellbinding_station/interact/add_lapis
 
 ## math stuff
 scoreboard players operation cost epl.dummy = height epl.dummy
