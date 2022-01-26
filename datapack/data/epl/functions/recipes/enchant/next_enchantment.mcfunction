@@ -1,5 +1,5 @@
-tellraw @p "---"
-tellraw @p [{"text":" ENCHANTMENT: ","color":"red"},{"nbt":"root.temp.ench.book.tag.epl.StoredEnchantments[0].id","storage":"epl:storage"}]
+#tellraw @p "---"
+#tellraw @p [{"text":" ENCHANTMENT: ","color":"red"},{"nbt":"root.temp.ench.book.tag.epl.StoredEnchantments[0].id","storage":"epl:storage"}]
 
 function epl:recipes/enchant/next_tag
 ## remove 1st element

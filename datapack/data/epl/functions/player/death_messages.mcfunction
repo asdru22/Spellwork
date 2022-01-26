@@ -1,1 +1,1 @@
-execute if entity @s[tag=epl.dummyamage.void_campfire] run tellraw @a [{"translate":"death.epl.void_campfire","with":[{"selector":"@s"},{"translate":"block.epl.void_campfire"}]}]
+execute if entity @s[tag=epl.damage.void_campfire] run tellraw @a [{"translate":"death.epl.void_campfire","with":[{"selector":"@s"},{"translate":"block.epl.void_campfire"}]}]
