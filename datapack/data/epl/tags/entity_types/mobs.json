@@ -55,6 +55,7 @@
 		"minecraft:vex",
 		"minecraft:vindicator",
 		"minecraft:witch",
-		"minecraft:cat"
+		"minecraft:cat",
+		"minecraft:player"
 	]
 }

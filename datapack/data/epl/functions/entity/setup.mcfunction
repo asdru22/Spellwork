@@ -1,4 +1,5 @@
 tag @s add epl.mob.setup
+tag @s add epl.entity
 # Assign a new id to the entity
 execute store result score @s epl.id run scoreboard players add epl.id epl.id 1
 scoreboard players operation @s epl.mob_id = @s epl.id

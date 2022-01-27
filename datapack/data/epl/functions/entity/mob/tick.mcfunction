@@ -1,0 +1,1 @@
+execute store result score @s epl.health run data get entity @s Health 100

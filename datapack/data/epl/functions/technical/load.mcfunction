@@ -1,9 +1,12 @@
 scoreboard objectives add epl.id dummy
 scoreboard objectives add epl.mob_id dummy
 scoreboard objectives add epl.dummy dummy
-
+scoreboard objectives add epl.health dummy
 scoreboard objectives add epl.level level
+### enchantment related
+scoreboard objectives add epl.ench_pain_cycle dummy
 
+## ids
 scoreboard players set const.-10 epl.dummy -10
 scoreboard players set const.2 epl.dummy 2
 scoreboard players set const.3 epl.dummy 3
@@ -22,6 +25,7 @@ scoreboard players set const.100 epl.dummy 100
 scoreboard players set const.158 epl.dummy 158
 scoreboard players set const.256 epl.dummy 256
 scoreboard players set const.1000 epl.dummy 1000
+scoreboard players set const.10000 epl.dummy 10000
 scoreboard players set const.65536 epl.dummy 65536
 #entity matching scores
 scoreboard objectives add epl.id dummy
