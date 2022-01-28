@@ -1,0 +1,1 @@
+execute as @a[tag=epl.player] run function epl:player/enchs/active/get_damage

@@ -5,9 +5,10 @@ scoreboard objectives add epl.health dummy
 scoreboard objectives add epl.level level
 ### enchantment related
 scoreboard objectives add epl.ench_pain_cycle dummy
-
+scoreboard objectives add epl.damage_dealt minecraft.custom:minecraft.damage_dealt
 ## ids
 scoreboard players set const.-10 epl.dummy -10
+scoreboard players set const.-1 epl.dummy -1
 scoreboard players set const.2 epl.dummy 2
 scoreboard players set const.3 epl.dummy 3
 scoreboard players set const.4 epl.dummy 4

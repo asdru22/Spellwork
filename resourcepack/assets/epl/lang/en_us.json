@@ -13,7 +13,7 @@
     "block.epl.spellbinding_station":"Spellbinding Station",
     "block.epl.spellbinding_station.name":"%s%s at Y= %s ➟ %s%s",
 
-    "death.epl.void_campfire":"%s's soul was set ablaze by %s",
+    "death.epl.pain_cycle":"%s couldn't stand the pain",
     
     "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
     "enchantment.epl.icon":"%s\uc014%s ",

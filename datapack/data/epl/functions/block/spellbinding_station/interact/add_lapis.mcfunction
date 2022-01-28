@@ -1,3 +1,3 @@
 playsound minecraft:block.amethyst_cluster.break block @a[distance=..5] ~ ~ ~ 2 1.5
-execute if entity @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true},predicate=!epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/one
-execute if entity @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true},predicate=epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/all
+execute if entity @p[advancements={epl:technical/player/interact_with_villager=true},predicate=!epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/one
+execute if entity @p[advancements={epl:technical/player/interact_with_villager=true},predicate=epl:player/sneaking] run function epl:block/spellbinding_station/interact/add_lapis/all
