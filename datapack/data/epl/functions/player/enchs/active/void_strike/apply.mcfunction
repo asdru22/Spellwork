@@ -1,0 +1,1 @@
+scoreboard players set @s epl.ench_void_strike_timer 4

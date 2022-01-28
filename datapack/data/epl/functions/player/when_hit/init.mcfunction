@@ -31,7 +31,7 @@ execute if entity @s[advancements={epl:technical/player/when_hit={bit28=true}}] 
 execute if entity @s[advancements={epl:technical/player/when_hit={bit29=true}}] run scoreboard players add $hit epl.id 536870912
 execute if entity @s[advancements={epl:technical/player/when_hit={bit30=true}}] run scoreboard players add $hit epl.id 1073741824
 execute if entity @s[advancements={epl:technical/player/when_hit={bit31=true}}] run scoreboard players operation $hit epl.id *= -1 const
-data modify storage epl:storage root.core.mob_hit_player.Inventory set from entity @s Inventory
+function epl:player/get_enchanted_items
+function epl:player/enchs/passive/main
 execute as @e[type=#epl:mobs,tag=epl.mob.setup] if score @s epl.mob_id = $hit epl.id run function epl:entity/mob/on_hit
-function epl:player/when_hit/hit
 advancement revoke @s only epl:technical/player/when_hit

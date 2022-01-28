@@ -1,0 +1,2 @@
+execute unless score @s epl.ench_void_strike_timer matches 1.. run function epl:player/enchs/active/void_strike/apply
+execute if score @s epl.ench_void_strike_timer matches 1.. run function epl:player/enchs/active/void_strike/hit
