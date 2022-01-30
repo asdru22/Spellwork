@@ -7,6 +7,10 @@ scoreboard objectives add epl.level level
 scoreboard objectives add epl.ench_pain_cycle dummy
 scoreboard objectives add epl.ench_void_strike_timer dummy
 scoreboard objectives add epl.damage_dealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add epl.using_item dummy
+scoreboard objectives add epl.prev_using_item dummy
+scoreboard objectives add epl.use_bow minecraft.used:minecraft.bow
+scoreboard objectives add epl.use_crossbow minecraft.used:minecraft.crossbow
 ## ids
 scoreboard players set const.-10 epl.dummy -10
 scoreboard players set const.-1 epl.dummy -1
@@ -29,6 +33,8 @@ scoreboard players set const.256 epl.dummy 256
 scoreboard players set const.1000 epl.dummy 1000
 scoreboard players set const.10000 epl.dummy 10000
 scoreboard players set const.65536 epl.dummy 65536
+
+scoreboard players set vsfix epl.dummy 1
 #entity matching scores
 scoreboard objectives add epl.id dummy
 scoreboard objectives add epl.mob_id dummy

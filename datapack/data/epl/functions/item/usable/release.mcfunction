@@ -1,0 +1,1 @@
+scoreboard players reset @s epl.using_item
