@@ -10,6 +10,3 @@ tag @s remove epl.player
 
 scoreboard players reset @s epl.use_bow
 scoreboard players reset @s epl.use_crossbow
-
-
-say sos

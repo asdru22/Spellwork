@@ -3,6 +3,11 @@ execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl
 
 execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:void_strike"}] run function epl:player/enchs/active/void_strike/main
 
+execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:thundering"}] run function epl:player/enchs/active/thundering/main
+
+execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:leviation_shot"}] run function epl:player/enchs/active/levitation_shot/main
+
+
 ## damage stuff
 execute store result score dmg_recived epl.dummy run data get entity @s Health -100
 scoreboard players operation dmg_recived epl.dummy += @s epl.health

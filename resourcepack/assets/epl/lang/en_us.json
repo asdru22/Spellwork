@@ -1,5 +1,5 @@
 {
-    "pack.epl": "Enchanting Evolved",
+    "pack.epl": "Spellwork",
     "pack.epl.desc": "ballin",
 
     "text.epl.too_high":"Block is not below Y= 0!",
@@ -35,8 +35,8 @@
     "enchantment.epl.overkill.icon":"\uc00d",
     "enchantment.epl.heals_allies.icon":"\uc00e",
     "enchantment.epl.crescent_shot.icon":"\uc00f",
-    "enchantment.epl.a.icon":"\uc010",
-    "enchantment.epl.b.icon":"\uc011",
-    "enchantment.epl.c.icon":"\uc012",
+    "enchantment.epl.witherstorm.icon":"\uc010",
+    "enchantment.epl.accelerate.icon":"\uc011",
+    "enchantment.epl.lightweight.icon":"\uc012",
     "enchantment.epl.d.icon":"\uc013"
 } 

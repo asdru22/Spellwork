@@ -33,6 +33,6 @@ execute if entity @s[advancements={epl:technical/player/on_hit={bit30=true}}] ru
 execute if entity @s[advancements={epl:technical/player/on_hit={bit31=true}}] run scoreboard players operation $hit epl.id *= const.-1 epl.dummy
 function epl:player/get_enchanted_items
 function epl:player/enchs/active/main
-execute as @e[type=#epl:mobs,tag=epl.mob.setup] if score @s epl.mob_id = $hit epl.id run function epl:entity/mob/when_hit
+execute as @e[type=#epl:mobs,tag=epl.mob.setup] if score @s epl.mob_id = $hit epl.id at @s run function epl:entity/mob/when_hit
 execute if score alive epl.dummy matches 0 run function epl:player/enchs/on_kill/main
 advancement revoke @s only epl:technical/player/on_hit
