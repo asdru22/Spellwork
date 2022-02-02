@@ -22,9 +22,4 @@ tag @s remove epl.block.spellbinding_station.has_book
 data remove entity @s ArmorItems[3].tag.epl.shards
 data remove entity @s HandItems[0]
 
-execute if score enchs epl.dummy matches 1 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -2 levels
-execute if score enchs epl.dummy matches 2 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -3 levels
-execute if score enchs epl.dummy matches 4 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -5 levels
-execute if score enchs epl.dummy matches 5 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -7 levels
-execute if score enchs epl.dummy matches 7 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -10 levels
-execute if score enchs epl.dummy matches 8 run xp add @p[advancements={epl:technical/player/interact_with_villager=true}] -13 levels
+execute as @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true}] run function epl:block/spellbinding_station/interact/generate/deduct_xp
