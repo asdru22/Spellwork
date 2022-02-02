@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6901000
+      },
+      "model": "epl:entity/drained/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901001
+      },
+      "model": "epl:entity/drained/head"
+    }
+  ]
+}
