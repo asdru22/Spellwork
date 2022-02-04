@@ -9,7 +9,7 @@
       {"predicate": {"custom_model_data": 6901000},"model": "epl:item/echoing_bar"},
       {"predicate": {"custom_model_data": 6901001},"model": "epl:block/enchanted_lantern"},
       {"predicate": {"custom_model_data": 6901002},"model": "epl:block/enchanted_lantern_lava"},
-      {"predicate": {"custom_model_data": 6901003},"model": "epl:item/fractal_junction"},
+      {"predicate": {"custom_model_data": 6901003},"model": "epl:item/alluring_powder"},
       {"predicate": {"custom_model_data": 6901004},"model": "epl:block/fractal_junction"},
       {"predicate": {"custom_model_data": 6901005},"model": "epl:block/fractal_junction_connected"},
       {"predicate": {"custom_model_data": 6901006},"model": "epl:item/shadowblight_bucket"},

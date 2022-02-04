@@ -1,2 +1,2 @@
-loot spawn ~ ~ ~ loot epl:blocks/spellbinding_station
+loot spawn ~ ~ ~ loot epl:blocks/enchanted_lantern
 kill @s

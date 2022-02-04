@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"block.epl.enchanted_lantern\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#00AFB2\"}']},CustomModelData:6901001,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{id:\"epl:enchanted_lantern\",block:{id:\"epl:enchanted_lantern\"}}}}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

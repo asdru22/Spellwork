@@ -1,1 +1,2 @@
 execute if data storage smithed:core blockApi{id:"epl:spellbinding_station"} run function epl:block/spellbinding_station/handler
+execute if data storage smithed:core blockApi{id:"epl:enchanted_lantern"} run function epl:block/enchanted_lantern/handler

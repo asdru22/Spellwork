@@ -9,7 +9,9 @@
     "void_tolerance.epl.icon":"\uc015",
     
     "item.epl.mystic_book":"Mystic Book",
+    "item.epl.alluring_powder":"Alluring Powder",
 
+    "block.epl.enchanted_lantern":"Enchanted Lantern",
     "block.epl.spellbinding_station":"Spellbinding Station",
     "block.epl.spellbinding_station.name":"%s%s at Y= %s ➟ %s%s",
 
