@@ -3,14 +3,14 @@
     {
       "type":"bitmap",
       "file":"epl:gui/romans.png",
-      "ascent": 1,
+      "ascent": 4,
       "height": 6,
       "chars":["123456789"]
     },
     {
       "type":"bitmap",
       "file":"epl:gui/enchantments.png",
-      "ascent": 7,
+      "ascent": 10,
       "height": 12,
       "chars":[
         "\uc000\uc001\uc002\uc003\uc004\uc005\uc006\uc007\uc008\uc009",
@@ -20,7 +20,7 @@
     {
       "type":"bitmap",
       "file":"epl:gui/ench_tooltip.png",
-      "ascent": 7,
+      "ascent": 10,
       "height": 12,
       "chars":[
         "\uf000"

@@ -2,6 +2,7 @@
     "pack.epl": "Spellwork",
     "pack.epl.desc": "ballin",
 
+    "text.epl.unstable":"Unstable",
     "text.epl.too_high":"Block is not below Y= 0!",
     "text.epl.no_book":"No book inserted!",
     "text.epl.no_shards":"Add Lapis Lazuli!",

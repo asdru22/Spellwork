@@ -5,5 +5,6 @@ data modify block ~ ~ ~ Items[{Slot:16b}].tag set from storage smithed:crafter r
 summon item ~ ~ ~ {Item:{id:"minecraft:blackstone",Count:1b,tag:{epl:{temp:1b}}}}
 execute as @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{epl:{temp:1b}}}}] run function epl:recipes/enchant/change_name_color
 
-
+execute store result score ench_count epl.dummy run data get storage epl:storage root.temp.ench.valid
+execute if score ench_count epl.dummy matches 8.. run function epl:recipes/enchant/unstable
 data modify block ~ ~ ~ Items[{Slot:16b}].tag.epl.Enchantments set from storage epl:storage root.temp.ench.valid

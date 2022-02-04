@@ -1,0 +1,2 @@
+data modify block ~ ~ ~ Items[{Slot:16b}].tag.epl.unstable set value 1b
+data modify block ~ ~ ~ Items[{Slot:16b}].tag.display.Lore insert -2 value '{"translate":"text.epl.unstable","italic":false,"color":"light_purple"}'
