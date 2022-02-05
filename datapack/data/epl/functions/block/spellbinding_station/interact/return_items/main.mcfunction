@@ -8,4 +8,4 @@ tag @s remove epl.block.spellbinding_station.has_book
 data remove entity @s ArmorItems[3].tag.epl.shards
 data remove entity @s HandItems[0]
 
-data merge entity @e[type=armor_stand,limit=1,sort=nearest,tag=epl.block.endric.altar.display,distance=..0.2] {CustomNameVisible:0b}
+data merge entity @e[type=armor_stand,limit=1,sort=nearest,tag=epl.block.spellbinding_station.display,distance=..0.2] {CustomNameVisible:0b}

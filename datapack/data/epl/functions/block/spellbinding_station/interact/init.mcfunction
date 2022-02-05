@@ -15,4 +15,4 @@ execute if score height epl.dummy matches ..0 if entity @s[tag=epl.block.spellbi
 execute if score height epl.dummy matches 1.. run data modify storage epl:storage root.temp.display set value '{"translate":"text.epl.too_high","color":"red"}'
 execute if entity @s[tag=!epl.block.spellbinding_station.has_book] if score height epl.dummy matches ..0 run data modify storage epl:storage root.temp.display set value '{"translate":"text.epl.no_book","color":"red"}'
 
-execute at @s positioned ~ ~1 ~ as @e[type=armor_stand,limit=1,sort=nearest,tag=epl.block.endric.altar.display,distance=..0.2] run function epl:block/spellbinding_station/interact/stand
+execute at @s positioned ~ ~1 ~ as @e[type=armor_stand,limit=1,sort=nearest,tag=epl.block.spellbinding_station.display,distance=..0.2] run function epl:block/spellbinding_station/interact/stand
