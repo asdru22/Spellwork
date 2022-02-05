@@ -41,5 +41,7 @@
     "enchantment.epl.witherstorm.icon":"\uc010",
     "enchantment.epl.accelerate.icon":"\uc011",
     "enchantment.epl.lightweight.icon":"\uc012",
-    "enchantment.epl.d.icon":"\uc013"
+    "enchantment.epl.warping.icon":"\uc013",
+    "enchantment.epl.flock.icon":"\uc014",
+    "enchantment.epl.shredding.icon":"\uc015"
 } 

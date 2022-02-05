@@ -4,6 +4,6 @@ data remove storage epl:storage root.temp.lore
 data modify storage epl:storage root.temp.lore set from block ~ ~ ~ Items[{Slot:16b}].tag.display.Lore[-1]
 data remove block ~ ~ ~ Items[{Slot:16b}].tag.display.Lore[-1]
 item modify block ~ ~ ~ container.16 epl:enchant
-execute if data storage epl:storage root.temp.lore run data modify block ~ ~ ~ Items[{Slot:16b}].tag.display.Lore[-1] set from storage epl:storage root.temp.lore
+execute if data storage epl:storage root.temp.lore run data modify block ~ ~ ~ Items[{Slot:16b}].tag.display.Lore insert -1 from storage epl:storage root.temp.lore
 
 kill @s

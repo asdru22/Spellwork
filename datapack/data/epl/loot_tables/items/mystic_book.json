@@ -21,7 +21,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{epl:{StoredEnchantments:[]},BlockEntityTag:{Command:\"epl:item\"},HideFlags:2,display:{Name:'{\"italic\":false,\"translate\":\"item.epl.mystic_book\",\"color\":\"dark_aqua\"}'},smithed:{id:\"epl:mystic_book\"},CustomModelData:6901010}"
+              "tag": "{epl:{StoredEnchantments:[]},BlockEntityTag:{Command:\"epl:item\"},HideFlags:2,display:{Name:'{\"italic\":false,\"translate\":\"item.epl.mystic_book\",\"color\":\"#FF0000\"}'},smithed:{id:\"epl:mystic_book\"},CustomModelData:6901010}"
             },
             {
               "function": "minecraft:copy_nbt",
@@ -56,14 +56,12 @@
                   }
                 ],
                 {
-                  "text": ""
-                },
-                {
                   "translate": "pack.epl",
-                  "color": "#9728FF"
+                  "color": "#93FFDB",
+                  "italic":false
                 }
               ],
-              "replace": false
+              "replace": false 
             }
           ]
         }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"block.epl.spellbinding_station\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#00AFB2\"}']},CustomModelData:6901002,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{id:\"epl:spellbinding_station\",block:{id:\"epl:spellbinding_station\"}}}}]}}"
+                "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"block.epl.spellbinding_station\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},CustomModelData:6901002,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{id:\"epl:spellbinding_station\",block:{id:\"epl:spellbinding_station\"}}}}]}}"
               }
             ]
           }

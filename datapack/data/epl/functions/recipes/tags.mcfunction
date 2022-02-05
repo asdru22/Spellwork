@@ -10,3 +10,4 @@ execute if predicate epl:recipes/enchanting/is_boots run data modify storage smi
 execute if predicate epl:recipes/enchanting/is_bow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:bows"
 execute if predicate epl:recipes/enchanting/is_crossbow run data modify storage smithed:crafter root.temp.item_tag append value "#epl:crossbows"
 execute if predicate epl:recipes/enchanting/is_enchantable run data modify storage smithed:crafter root.temp.item_tag append value "#epl:enchantable"
+execute if predicate epl:recipes/enchanting/is_elytra run data modify storage smithed:crafter root.temp.item_tag append value "#epl:elytra"

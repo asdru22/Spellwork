@@ -13,6 +13,7 @@ execute if score shards epl.dummy matches 20 run scoreboard players set enchs ep
 execute if score y epl.dummy matches -9..0 run function epl:block/spellbinding_station/interact/generate/0_9/main
 execute if score y epl.dummy matches -19..-10 run function epl:block/spellbinding_station/interact/generate/10_19/main
 execute if score y epl.dummy matches -29..-20 run function epl:block/spellbinding_station/interact/generate/20_29/main
+execute if score y epl.dummy matches -39..-30 run function epl:block/spellbinding_station/interact/generate/30_39/main
 ###    RANDOMIZE LIST
 function epl:block/spellbinding_station/interact/randomize_list/init
 ###

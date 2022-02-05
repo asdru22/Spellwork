@@ -1,11 +1,11 @@
 {
 	"parent": "minecraft:block/cube",
   "textures": {
-    "particle": "epl:block/spellbinding_station_front",
+    "particle": "epl:block/spellbinding_station_side",
     "north": "epl:block/spellbinding_station_side",
-    "south": "epl:block/spellbinding_station_front",
-    "east": "epl:block/spellbinding_station_front",
-    "west": "epl:block/spellbinding_station_front",
+    "south": "epl:block/spellbinding_station_side",
+    "east": "epl:block/spellbinding_station_side",
+    "west": "epl:block/spellbinding_station_side",
     "up": "epl:block/spellbinding_station_top",
     "down": "epl:block/spellbinding_station_bottom"
   },
