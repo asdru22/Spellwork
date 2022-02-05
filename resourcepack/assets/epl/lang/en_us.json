@@ -17,6 +17,9 @@
     "block.epl.spellbinding_station.name":"%s%s at Y= %s ➟ %s%s",
 
     "death.epl.pain_cycle":"%s couldn't stand the pain",
+    "death.epl.shredding":"%s got shredded by %s",
+    "death.epl.extra":"%s was slain by %s",
+
     
     "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
     "enchantment.epl.icon":"%s\uc014%s ",

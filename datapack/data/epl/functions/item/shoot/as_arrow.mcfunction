@@ -6,6 +6,8 @@ execute store result score arrow_damage epl.dummy run data get entity @s damage
 
 execute if score pulling_for epl.dummy matches 30.. if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:supercharge"}] run function epl:item/shoot/arrow/supercharge
 
+execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:accelerate"}] run function epl:item/shoot/arrow/accelerate/main
+
 execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:piercing"}] run data modify entity @s PierceLevel set from storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:piercing"}].lvl
 data modify storage epl:storage root.temp.new_arrow.PierceLevel set from entity @s PierceLevel
 
