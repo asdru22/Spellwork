@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:ender_pearl"}]}] run scoreboard players set ench_warping epl.dummy 1

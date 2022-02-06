@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.arrow.warping] run function epl:item/shoot/arrow/warping/tp_player
