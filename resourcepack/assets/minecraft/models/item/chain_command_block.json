@@ -10,14 +10,9 @@
       {"predicate": {"custom_model_data": 6901001},"model": "epl:block/enchanted_lantern"},
       {"predicate": {"custom_model_data": 6901002},"model": "epl:block/enchanted_lantern_lava"},
       {"predicate": {"custom_model_data": 6901003},"model": "epl:item/alluring_powder"},
-      {"predicate": {"custom_model_data": 6901004},"model": "epl:block/fractal_junction"},
-      {"predicate": {"custom_model_data": 6901005},"model": "epl:block/fractal_junction_connected"},
-      {"predicate": {"custom_model_data": 6901006},"model": "epl:item/shadowblight_bucket"},
-      {"predicate": {"custom_model_data": 6901007},"model": "epl:block/spellbinding_station"},
-      {"predicate": {"custom_model_data": 6901008},"model": "epl:item/fractaleaf_petal"},
-      {"predicate": {"custom_model_data": 6901009},"model": "epl:item/experience_shard"},
-      {"predicate": {"custom_model_data": 6901010},"model": "epl:item/mystic_book"},
-      {"predicate": {"custom_model_data": 6901011},"model": "epl:item/copper_bolt"},
-      {"predicate": {"custom_model_data": 6901012},"model": "epl:item/rotated_book"}
+      {"predicate": {"custom_model_data": 6901004},"model": "epl:item/desecrated_char"},
+      {"predicate": {"custom_model_data": 6901005},"model": "epl:item/rotated_book"},
+      {"predicate": {"custom_model_data": 6901006},"model": "epl:item/mystic_book"},
+      {"predicate": {"custom_model_data": 6901007},"model": "epl:block/spellbinding_station"}
   ]
   }

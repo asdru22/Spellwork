@@ -10,6 +10,8 @@
     "void_tolerance.epl.icon":"\uc015",
     
     "item.epl.mystic_book":"Mystic Book",
+    "item.epl.experience_vial":"Experience Vial",
+    "item.epl.desecrated_char":"Desecrated Char",
     "item.epl.alluring_powder":"Alluring Powder",
 
     "block.epl.enchanted_lantern":"Enchanted Lantern",

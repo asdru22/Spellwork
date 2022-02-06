@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.desecrated_char\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},epl:{id:\"desecrated_char\"},CustomModelData:6901004}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

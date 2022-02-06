@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/carrot_on_a_stick"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 6901000},"model": "epl:item/umbral_configuration_empty"},
-    {"predicate": {"custom_model_data": 6901001},"model": "epl:item/umbral_configuration_filled"}
+    {"predicate": {"custom_model_data": 6901000},"model": "epl:item/experience_vial_empty"},
+    {"predicate": {"custom_model_data": 6901001},"model": "epl:item/experience_vial_full"}
   ]
 }

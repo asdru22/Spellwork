@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,HideFlags:4,RepairCost:100,display:{Name:'{\"italic\":false,\"translate\":\"item.epl.experience_vial\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\":\"#93FFDB\",\"italic\":false}']},epl:{id:\"experience_vial\"},CustomModelData:6901000}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

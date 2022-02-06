@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.alluring_powder\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},smithed:{id:\"epl:alluring_powder\"},CustomModelData:6901003}"
+              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.alluring_powder\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},epl:{id:\"alluring_powder\"},CustomModelData:6901003}"
             }
           ]
         }
