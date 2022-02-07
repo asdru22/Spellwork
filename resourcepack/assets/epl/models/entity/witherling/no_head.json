@@ -201,22 +201,9 @@
 				"up": {"uv": [7.5, 2.125, 7, 2.25], "texture": "#0"},
 				"down": {"uv": [7.5, 2.375, 7, 2.25], "texture": "#0"}
 			}
-		},
-		{
-			"name": "head",
-			"from": [4, 2, -2],
-			"to": [12, 10, 6],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 2]},
-			"faces": {
-				"north": {"uv": [1, 6, 0, 7], "texture": "#0"},
-				"east": {"uv": [6.5, 5.875, 5.5, 6.875], "texture": "#0"},
-				"south": {"uv": [4.5, 5.625, 3.5, 6.625], "texture": "#0"},
-				"west": {"uv": [6.5, 4.875, 5.5, 5.875], "texture": "#0"},
-				"up": {"uv": [2, 6, 1, 7], "rotation": 90, "texture": "#0"},
-				"down": {"uv": [7.25, 1, 6.25, 0], "rotation": 270, "texture": "#0"}
-			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "flap1",
@@ -241,7 +228,6 @@
 			"nbt": "{}",
 			"armAnimationEnabled": false,
 			"children": [12, 13, 14]
-		},
-		15
+		}
 	]
 }

@@ -33,6 +33,10 @@
     {"predicate": {"custom_model_data": 6901009},
     "model": "epl:entity/witherling/o7"},
     {"predicate": {"custom_model_data": 6901010},
-    "model": "epl:entity/witherling/o8"}
+    "model": "epl:entity/witherling/o8"},
+    {"predicate": {"custom_model_data": 6901011},
+    "model": "epl:entity/witherling/head"},
+    {"predicate": {"custom_model_data": 6901012},
+    "model": "epl:entity/witherling/no_head"}
   ]
 }

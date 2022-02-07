@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.witherling] run function epl:entity/mob/custom/witherling/second

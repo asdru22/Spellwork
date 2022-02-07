@@ -6,7 +6,7 @@
       "side": "minecraft:block/chain_command_block_side"
     },
     "overrides": [
-      {"predicate": {"custom_model_data": 6901000},"model": "epl:item/echoing_bar"},
+      {"predicate": {"custom_model_data": 6901000},"model": "epl:empty"},
       {"predicate": {"custom_model_data": 6901001},"model": "epl:block/enchanted_lantern"},
       {"predicate": {"custom_model_data": 6901002},"model": "epl:block/enchanted_lantern_lava"},
       {"predicate": {"custom_model_data": 6901003},"model": "epl:item/alluring_powder"},

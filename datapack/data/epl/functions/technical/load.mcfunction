@@ -2,6 +2,8 @@ scoreboard objectives add epl.id dummy
 scoreboard objectives add epl.mob_id dummy
 scoreboard objectives add epl.dummy dummy
 scoreboard objectives add epl.health dummy
+scoreboard objectives add epl.anim dummy
+
 scoreboard objectives add epl.level level
 ### enchantment related
 scoreboard objectives add epl.ench_pain_cycle dummy

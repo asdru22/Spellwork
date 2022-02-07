@@ -2,6 +2,7 @@ tag @s add epl.mob.setup
 tag @s add epl.entity
 
 execute if entity @s[type=!player] at @s run function epl:entity/mob/spawn_custom
+#execute if entity @s[tag=epl.mob.animation] store result score @s epl.anim run data get entity @s ArmorItems[3].tag.epl.mob_data.anim 1 
 # Assign a new id to the entity
 execute store result score @s epl.id run scoreboard players add epl.id epl.id 1
 scoreboard players operation @s epl.mob_id = @s epl.id

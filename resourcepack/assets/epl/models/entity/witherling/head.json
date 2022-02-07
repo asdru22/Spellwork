@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "witherling",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "epl:entity/witherling",
+		"particle": "epl:entity/witherling"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 8, 5],
+			"to": [12, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 2]},
+			"faces": {
+				"north": {"uv": [6.5, 4.875, 5.5, 5.875], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [1, 6, 0, 7], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.5, 5.875, 5.5, 6.875], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.5, 5.625, 3.5, 6.625], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [2, 6, 1, 7], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [7.25, 1, 6.25, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -10.25, -1.25],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}
