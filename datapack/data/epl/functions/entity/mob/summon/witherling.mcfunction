@@ -1,0 +1,1 @@
+summon wandering_trader ~ ~ ~ {NoGravity:1b,Silent:1b,CanPickUpLoot:0b,HandItems:[{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:6901002}},{}],ActiveEffects:[{Id:2b,Amplifier:200b,Duration:21401142,ShowParticles:0b},{Id:14b,Amplifier:200b,Duration:21401142,ShowParticles:0b}]}
