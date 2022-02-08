@@ -9,6 +9,8 @@ scoreboard objectives add epl.level level
 scoreboard objectives add epl.ench_pain_cycle dummy
 scoreboard objectives add epl.ench_void_strike_timer dummy
 scoreboard objectives add epl.damage_dealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add epl.damage_resisted minecraft.custom:minecraft.damage_resisted
+scoreboard objectives add epl.ench.iron_hide_shields dummy
 scoreboard objectives add epl.using_item dummy
 scoreboard objectives add epl.prev_using_item dummy
 scoreboard objectives add epl.use_bow minecraft.used:minecraft.bow

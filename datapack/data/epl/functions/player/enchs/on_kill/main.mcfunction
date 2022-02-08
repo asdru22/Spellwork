@@ -6,6 +6,8 @@ execute if score e_perc_dmg epl.dummy matches 1.. run function epl:player/enchs/
 
 #tellraw @a [{"text":"Residue damage: "},{"score":{"name":"extra_dmg_recived","objective":"epl.dummy"}}]
 
+execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:iron_hide"}] run function epl:player/enchs/on_kill/iron_hide
+
 execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:overkill"}] run function epl:player/enchs/on_kill/overkill/main
 
 execute if data storage epl:storage root.temp.Equipment[0].Enchantments[{id:"epl:vampirism"}] run function epl:player/enchs/on_kill/vampirism/main
