@@ -8,7 +8,7 @@
             "type": "minecraft:loot_table",
             "weight": 1,
             "quality": 6,
-            "name": "epl:items/alluring_powder"
+            "name": "epl:items/desecrated_char"
           },
           {
             "type": "minecraft:loot_table",

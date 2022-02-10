@@ -1,0 +1,1 @@
+execute as @a[tag=epl.replace] run function epl:item/experience_vial/remove_tag

@@ -1,0 +1,1 @@
+execute if entity @s[tag=!epl.item.experience_vial.ignore,nbt={SelectedItem:{tag:{CustomModelData:6901000}}}] run function epl:item/experience_vial/fill_att

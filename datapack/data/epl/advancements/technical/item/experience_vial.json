@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{epl:{id:\"experience_vial\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "epl:item/experience_vial/drink"
+    }
+  }
+  

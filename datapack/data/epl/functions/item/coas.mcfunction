@@ -1,1 +1,1 @@
-execute if entity @s[predicate=epl:item/umbral_configuration] run function epl:item/umbral_configuration/main
+execute if entity @s[predicate=epl:item/experience_vial] run function epl:item/experience_vial/main

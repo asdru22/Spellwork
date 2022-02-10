@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 6901000
+        },
+        "model": "epl:item/experience_vial_full"
+      }
+    ]
+}

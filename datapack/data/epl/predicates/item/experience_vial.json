@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{smithed:{id:\"epl:umbral_configuration\"}}"
+          "nbt": "{epl:{id:\"experience_vial\"}}"
         }
       }
     }

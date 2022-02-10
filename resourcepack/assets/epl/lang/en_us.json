@@ -13,6 +13,7 @@
     "item.epl.experience_vial":"Experience Vial",
     "item.epl.desecrated_char":"Desecrated Char",
     "item.epl.alluring_powder":"Alluring Powder",
+    "item.epl.witherling_shell":"Witherling Shell",
 
     "block.epl.enchanted_lantern":"Enchanted Lantern",
     "block.epl.spellbinding_station":"Spellbinding Station",
@@ -21,7 +22,7 @@
     "death.epl.pain_cycle":"%s couldn't stand the pain",
     "death.epl.shredding":"%s got shredded by %s",
     "death.epl.extra":"%s was slain by %s",
-
+    "death.epl.no_shields":"%s's skin couldn't withstand the damage",
     
     "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
     "enchantment.epl.icon":"%s\uc014%s ",
@@ -48,5 +49,6 @@
     "enchantment.epl.lightweight.icon":"\uc012",
     "enchantment.epl.warping.icon":"\uc013",
     "enchantment.epl.flock.icon":"\uc014",
-    "enchantment.epl.shredding.icon":"\uc015"
+    "enchantment.epl.shredding.icon":"\uc015",
+    "enchantment.epl.iron_hide.icon":"\uc016"
 } 

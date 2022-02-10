@@ -1,3 +1,4 @@
 execute if entity @s[tag=epl.damage.pain_cycle] run tellraw @a [{"translate":"death.epl.pain_cycle","with":[{"selector":"@s"}]}]
 execute if entity @s[tag=epl.damage.shredding] run tellraw @a [{"translate":"death.epl.shredding","with":[{"selector":"@s"},{"selector":"@p[advancements={epl:technical/player/on_hit}]"}]}]
 execute if entity @s[tag=epl.damage.extra] run tellraw @a [{"translate":"death.epl.extra","with":[{"selector":"@s"},{"selector":"@p[advancements={epl:technical/player/on_hit}]"}]}]  
+execute if entity @s[tag=epl.damage.no_shields] run tellraw @a [{"translate":"death.epl.no_shields","with":[{"selector":"@s"}]}]  
