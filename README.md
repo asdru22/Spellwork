@@ -4,4 +4,5 @@ Click [here](https://github.com/asdru22/Enchanting-plus/wiki) to go to the datap
 
 # Credits:
 TheNuclearNexus: all smithed stuff
+
 FalsePsychic: the good looking textures and sounds
