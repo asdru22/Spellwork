@@ -27,6 +27,10 @@
     "enchantment.epl.enchantment_cost":"Requires: %s%s, %s %s",
     "enchantment.epl.icon":"%s\uc014%s ",
     "enchantment.epl.shard_icon":"\uc013",
+
+    "subtitles.epl.block.enchanted_lantern.lava":"Enchanted Lantern activates",
+    "subtitles.epl.item.experience_vial.use":"Experience Vial fills",
+
     
     "enchantment.epl.vampirism.icon":"\uc000",
     "enchantment.epl.pain_cycle.icon":"\uc001",
