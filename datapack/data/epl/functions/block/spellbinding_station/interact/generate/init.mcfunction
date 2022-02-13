@@ -23,4 +23,4 @@ tag @s remove epl.block.spellbinding_station.has_book
 data remove entity @s ArmorItems[3].tag.epl.shards
 data remove entity @s HandItems[0]
 
-execute as @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true}] run function epl:block/spellbinding_station/interact/generate/deduct_xp
+execute as @p[gamemode=!creative,advancements={epl:technical/player/interact_with_villager=true}] run function epl:block/spellbinding_station/interact/generate/bewitching

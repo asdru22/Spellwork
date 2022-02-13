@@ -14,6 +14,7 @@
       {"predicate": {"custom_model_data": 6901005},"model": "epl:item/rotated_book"},
       {"predicate": {"custom_model_data": 6901006},"model": "epl:item/mystic_book"},
       {"predicate": {"custom_model_data": 6901007},"model": "epl:block/spellbinding_station"},
-      {"predicate": {"custom_model_data": 6901008},"model": "epl:item/witherling_shell"}
+      {"predicate": {"custom_model_data": 6901008},"model": "epl:item/witherling_shell"},
+      {"predicate": {"custom_model_data": 6901009},"model": "epl:item/desecrating_cream"}
   ]
   }

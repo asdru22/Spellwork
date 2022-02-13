@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{epl:{id:"death_item"}}}}] at @s run function epl:entity/mob/death/effects

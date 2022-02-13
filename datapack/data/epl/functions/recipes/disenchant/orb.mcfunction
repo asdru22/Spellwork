@@ -1,0 +1,10 @@
+execute if score enchs epl.dummy matches 1 run summon experience_orb ~ ~ ~ {Value:25}
+execute if score enchs epl.dummy matches 2 run summon experience_orb ~ ~ ~ {Value:45}
+execute if score enchs epl.dummy matches 3 run summon experience_orb ~ ~ ~ {Value:75}
+execute if score enchs epl.dummy matches 4 run summon experience_orb ~ ~ ~ {Value:140}
+execute if score enchs epl.dummy matches 5 run summon experience_orb ~ ~ ~ {Value:200}
+execute if score enchs epl.dummy matches 6 run summon experience_orb ~ ~ ~ {Value:300}
+execute if score enchs epl.dummy matches 7 run summon experience_orb ~ ~ ~ {Value:500}
+execute if score enchs epl.dummy matches 8 run summon experience_orb ~ ~ ~ {Value:750}
+execute if score enchs epl.dummy matches 9 run summon experience_orb ~ ~ ~ {Value:1000}
+execute if score enchs epl.dummy matches 10 run summon experience_orb ~ ~ ~ {Value:1250}

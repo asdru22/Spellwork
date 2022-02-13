@@ -6,9 +6,8 @@
             "equipment": {
                 "mainhand": {
                     "items": [
-                        "minecraft:chain_command_block"
-                    ],
-                    "nbt": "{smithed:{id:\"epl:shadowblight_bucket\"}}"
+                        "minecraft:honey_bottle"
+                    ]
                 }
             }
         }

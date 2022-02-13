@@ -13,7 +13,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.desecrated_char\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},epl:{id:\"desecrated_char\"},CustomModelData:6901004}"
+              "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.desecrated_char\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},epl:{id:\"desecrated_char\",flags:[\"not_mergeable\"]},CustomModelData:6901004}"
             }
           ]
         }
