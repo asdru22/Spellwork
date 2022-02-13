@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.witherling] run playsound epl:entity.witherling.hurt neutral @a[distance=..16]

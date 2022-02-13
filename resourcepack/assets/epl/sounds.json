@@ -14,5 +14,65 @@
       }],
       "subtitle": "subtitles.epl.item.experience_vial.use",
       "category": "master"
+    },
+    "entity.witherling.idle": {
+      "sounds": [
+        {
+        "name": "epl:entity/witherling/idle0",
+        "stream": true
+      },
+      {
+        "name": "epl:entity/witherling/idle1",
+        "stream": true
+      },
+      {
+        "name": "epl:entity/witherling/idle2",
+        "stream": true
+      },
+      {
+        "name": "epl:entity/witherling/idle3",
+        "stream": true
+      }
+    ],
+      "subtitle": "subtitles.epl.entity.witherling.idle",
+      "category": "master"
+    },
+    "entity.witherling.hurt": {
+      "sounds": [
+        {
+        "name": "epl:entity/witherling/hurt0",
+        "stream": true
+      },
+      {
+        "name": "epl:entity/witherling/hurt1",
+        "stream": true
+      }
+    ],
+      "subtitle": "subtitles.epl.entity.witherling.hurt",
+      "category": "master"
+    },
+    "entity.witherling.death": {
+      "sounds": [
+        {
+        "name": "epl:entity/witherling/death",
+        "stream": true
+      }
+    ],
+      "subtitle": "subtitles.epl.entity.witherling.deathhurt",
+      "category": "master"
+    },
+    "entity.witherling.shoot": {
+      "sounds": [
+        {
+        "name": "epl:entity/witherling/shoot0",
+        "stream": true
+      },
+      {
+        "name": "epl:entity/witherling/shoot1",
+        "stream": true
+      }
+    ],
+      "subtitle": "subtitles.epl.entity.witherling.shoot",
+      "category": "master"
     }
 }

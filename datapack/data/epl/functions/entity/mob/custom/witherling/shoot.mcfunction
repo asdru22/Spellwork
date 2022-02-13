@@ -1,3 +1,4 @@
+playsound epl:entity.witherling.shoot neutral @a[distance=..16]
 scoreboard players reset @s epl.using_item
 summon marker 0.0 0 0.0 {Tags:["epl.motion"]}
 execute rotated as @s as @e[tag=epl.motion,type=marker] run function epl:entity/mob/custom/witherling/marker
