@@ -1,1 +1,2 @@
+execute if entity @s[tag=!epl.mob.static,type=wandering_trader] run function epl:entity/mob/custom/tick
 execute if entity @s[nbt={HurtTime:0s},tag=epl.mob_hit] run function epl:entity/mob/when_hit/tint/reset

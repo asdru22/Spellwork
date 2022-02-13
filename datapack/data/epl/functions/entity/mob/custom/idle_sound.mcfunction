@@ -1,0 +1,1 @@
+execute if entity @s[tag=epl.dechanter] run playsound epl:entity.dechanter.idle neutral @a[distance=..16]

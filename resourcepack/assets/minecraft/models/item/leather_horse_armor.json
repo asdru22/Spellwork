@@ -37,6 +37,12 @@
     {"predicate": {"custom_model_data": 6901011},
     "model": "epl:entity/witherling/head"},
     {"predicate": {"custom_model_data": 6901012},
-    "model": "epl:entity/witherling/no_head"}
+    "model": "epl:entity/witherling/no_head"},
+    {"predicate": {"custom_model_data": 6901013},
+    "model": "epl:entity/dechanter/idle"},
+    {"predicate": {"custom_model_data": 6901014},
+    "model": "epl:entity/dechanter/head"},
+    {"predicate": {"custom_model_data": 6901015},
+    "model": "epl:entity/dechanter/walking"}
   ]
 }

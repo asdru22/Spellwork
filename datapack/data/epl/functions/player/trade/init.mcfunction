@@ -35,5 +35,5 @@ scoreboard players operation d.2 epl.dummy = @s epl.id
 data remove storage epl:storage root.core.player_trade
 data modify storage epl:storage root.core.player_trade.Inventory set from entity @s Inventory
 data modify storage epl:storage root.core.player_trade.SelectedItem set from entity @s SelectedItem
-execute as @e[type=#epl:mobs,tag=epl.mob.setup] if score @s epl.mob_id = $trade epl.id run function epl:entity/mob/trader/traded_with
+execute as @e[type=#epl:mobs,tag=epl.mob.setup] if score @s epl.mob_id = $trade epl.id at @s run function epl:entity/mob/trader/traded_with
 advancement revoke @s only epl:technical/player/interact_with_villager

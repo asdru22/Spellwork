@@ -1,1 +1,2 @@
 execute if entity @s[tag=epl.block.spellbinding_station] run function epl:block/spellbinding_station/interact/init
+execute if entity @s[tag=epl.block.enchanted_lantern] if block ~ ~ ~ lava_cauldron run function epl:block/enchanted_lantern/interact/init
