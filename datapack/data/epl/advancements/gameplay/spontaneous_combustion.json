@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chain_command_block",
+      "nbt": "{CustomModelData:6901006,Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancement.epl.spontaneous_combustion.title",
+      "color": "white"
+    },
+    "description": {
+      "translate": "advancement.epl.spontaneous_combustion.description",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "epl:gameplay/apprentice_enchanter",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

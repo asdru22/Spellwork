@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:6901001}"
+    },
+    "title": {
+      "translate": "advancement.epl.more_enchanting.title",
+      "color": "white"
+    },
+    "description": {
+      "translate": "advancement.epl.more_enchanting.description",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "epl:gameplay/spontaneous_combustion",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ],
+            "nbt": "{epl:{id:\"enchanted_lantern\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

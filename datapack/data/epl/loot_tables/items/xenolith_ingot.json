@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chain_command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Command:\"epl:item\"},display:{Name:'{\"italic\":false,\"translate\":\"item.epl.xenolith_ingot\",\"color\":\"white\"}',Lore:['{\"translate\": \"pack.epl\",\"color\": \"#93FFDB\",\"italic\":false}']},epl:{id:\"xenolith_ingot\"},CustomModelData:6901010}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

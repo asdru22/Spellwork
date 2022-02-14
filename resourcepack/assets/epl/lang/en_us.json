@@ -15,6 +15,8 @@
     "item.epl.alluring_powder":"Alluring Powder",
     "item.epl.witherling_shell":"Witherling Shell",
     "item.epl.desecrating_cream":"Desecrating Cream",
+    "item.epl.xenolith_ingot":"Xenolith Ingot",
+    "item.epl.rekindling_feather":"Rekindling Feather",
 
     "block.epl.enchanted_lantern":"Enchanted Lantern",
     "block.epl.spellbinding_station":"Spellbinding Station",
@@ -58,5 +60,17 @@
     "enchantment.epl.warping.icon":"\uc013",
     "enchantment.epl.flock.icon":"\uc014",
     "enchantment.epl.shredding.icon":"\uc015",
-    "enchantment.epl.iron_hide.icon":"\uc016"
+    "enchantment.epl.iron_hide.icon":"\uc016",
+	
+	"advancement.epl.apprentice_enchanter.title":"Apprentice Enchanter",
+	"advancement.epl.apprentice_enchanter.description":"Craft a Spellbinding Station",
+	"advancement.epl.more_enchanting.title":"More Enchanting",
+	"advancement.eplmore_enchanting.description":"Craft an Enchanted Lantern",
+	"advancement.epl.sorcerer_supreme.title":"Sorcerer Supreme",
+	"advancement.epl.sorcerer_supreme.description":"Craft a Mystic Book with 15 or more enchantments",
+	"advancement.epl.spontaneous_combustion.title":"Spontaneous Combustion",
+	"advancement.epl.spontaneous_combustion.description":"Obtain Alluring Powder from an unstable item",
+	"advancement.epl.root.title":"Spellwork",
+	"advancement.epl.root.description":"Enchantments datapack wooo"
+	
 } 

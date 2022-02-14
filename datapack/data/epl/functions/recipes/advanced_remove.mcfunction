@@ -1,1 +1,2 @@
 execute if predicate epl:recipes/honey_bottle store success score $temp smithed.data run function epl:recipes/remove/honey_bottle
+execute if predicate epl:recipes/experience_vial_full store success score $temp smithed.data run function epl:recipes/remove/experience_vial_full

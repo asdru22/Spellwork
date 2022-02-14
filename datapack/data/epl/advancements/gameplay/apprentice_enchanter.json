@@ -1,0 +1,36 @@
+{
+  "display": {
+      "title": {
+          "translate": "advancement.epl.apprentice_enchanter.title",
+          "color": "white"
+      },
+      "description": {
+          "translate": "advancement.epl.apprentice_enchanter.description",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:furnace",
+          "nbt": "{CustomModelData:6901002}"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ],
+            "nbt": "{epl:{id:\"spellbinding_station\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "epl:gameplay/root"
+}
