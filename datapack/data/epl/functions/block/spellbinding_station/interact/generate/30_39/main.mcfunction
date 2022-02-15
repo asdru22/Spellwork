@@ -59,5 +59,3 @@ execute if predicate epl:technical/rng/33 run data modify storage epl:storage ro
 data modify storage epl:storage root.temp.merge.final prepend value {id:"epl:accelerate",AppliableTo:["#epl:bows","#epl:crossbows"],lvl:1s,display:'{"translate":"enchantment.epl.icon","with":[{"font":"epl:enchants","translate":"enchantment.epl.accelerate.icon"},{"font":"epl:enchants","text":"1"}]}'}
 
 execute if predicate epl:technical/rng/80 run data modify storage epl:storage root.temp.merge.final prepend value {id:"epl:warping",AppliableTo:["#epl:bows","#epl:crossbows"],lvl:1s,display:'{"translate":"enchantment.epl.icon","with":[{"font":"epl:enchants","translate":"enchantment.epl.warping.icon"},{"font":"epl:enchants","text":"1"}]}'}
-
-execute if predicate epl:technical/rng/50 run data modify storage epl:storage root.temp.merge.final prepend value {id:"epl:flock",AppliableTo:["#epl:elytra"],lvl:1s,display:'{"translate":"enchantment.epl.icon","with":[{"font":"epl:enchants","translate":"enchantment.epl.flock.icon"},{"font":"epl:enchants","text":"1"}]}'}

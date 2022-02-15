@@ -16,10 +16,24 @@
     },
     {
       "type":"bitmap",
-      "file":"epl:item/rekindling_feather.png",
+      "file":"epl:gui/book_gray.png",
       "ascent": 9,
       "height": 12,
       "chars":["\uc003"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:gui/vial_gray.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc004"]
+    },
+    {
+      "type":"bitmap",
+      "file":"epl:item/rekindling_feather.png",
+      "ascent": 9,
+      "height": 12,
+      "chars":["\uc005"]
     }
   ]
 }

@@ -11,7 +11,6 @@
         },
         {
           "text": "+",
-          "color": "green",
           "font":"default"
         },
         {
@@ -22,14 +21,12 @@
         },
         {
             "text": "+",
-            "color": "green",
             "font":"default"
         },
         {
             "nbt": "root.temp.display.Ingredient",
             "storage": "epl:storage",
-            "interpret": true,
-            "font": "epl:enchanted_lantern"
+            "interpret": true
         }
       ]
     }
