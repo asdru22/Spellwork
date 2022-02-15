@@ -1,0 +1,37 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "nbt": "root.temp.display.Book",
+          "storage": "epl:storage",
+          "interpret": true,
+          "font": "epl:enchanted_lantern"
+        },
+        {
+          "text": "+",
+          "color": "green",
+          "font":"default"
+        },
+        {
+            "nbt": "root.temp.display.Vial",
+            "storage": "epl:storage",
+            "interpret": true,
+            "font": "epl:enchanted_lantern"
+        },
+        {
+            "text": "+",
+            "color": "green",
+            "font":"default"
+        },
+        {
+            "nbt": "root.temp.display.Ingredient",
+            "storage": "epl:storage",
+            "interpret": true,
+            "font": "epl:enchanted_lantern"
+        }
+      ]
+    }
+  ]
+  

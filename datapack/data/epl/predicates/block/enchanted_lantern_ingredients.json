@@ -1,0 +1,17 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:chain_command_block"
+            ],
+            "nbt": "{epl:{id:\"rekindling_feather\"}}"
+          }
+        }
+      }
+    }
+  ]
+  
